@@ -12,12 +12,12 @@ nav{
     align-items: center;
     justify-content: space-around;
     background: #fff;
-    position: fixed;
+    position: top;
     right: 0;
     left: 0;
     z-index: 1000;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 10 10px 10px;
 }
 
 nav .logo{
@@ -58,98 +58,56 @@ nav .logo{
     color:  #4169E1;
 }
 
-.nav .login a{
-    color: #000;
-    text-decoration: none;
-    border: 2px solid #facc22;
-    border-radius: 20px;
-    padding: 7px 20px;
-    transition: 0.3s;
-}
-
-.nav .login a:hover{
-    background: #facc22;
-    color: #fff;
-}
-
 
 /* end navbar */
 
 /* container 1 */
 
-.container1 {
-    background-image: url(dealership.jpg);
+.atas {
+    background-color: #4169E1;
     height: 650px;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
     
 }
 
+
 .right{
-    text-align: end;
+    text-align: left;
     width: 85%;
     box-sizing: border-box;
     padding-top: 70px;
+    margin-left: 200px;
 }
 
  .p1{
-    color: #4169E1;
+    color: white;
     font-size: 40px;
     padding-top: 150px;
 }
 
 .p2{
-    color:  #4169E1;
+    color:  white;
     font-weight: bold;
     font-size: 55px;
 }
 
-.btn-1{
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #4169E1;
-    color: white;
-    width: 150px;
-    cursor: pointer;
-    margin-top: 15px;
-}
 
-/* end container 1 */
-
-/* container 2 */
-.container2{
-    padding-top: 50px;
-}
-
-.container2 h1{
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 40px;
-}
-
-.card iframe{
-    width: 1080px;
-    height: 500px;
-}
-
-.card h2{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-/* end container 2 */
 
 /* container 3 */
 
-.container3{
+.dealership{
     padding-top: 40px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     width: 100%;
     margin: auto;
 }
 
+.card-img-top{
+    width: 200px;
+    height: 200px;
+}
 
 .card1{
     display: flex;
@@ -157,18 +115,26 @@ nav .logo{
     justify-content: space-evenly;
     width: 100%;
     margin: auto;
+    align-items: center;
+    
 }
 
+.card-text{
+    text-align: center;
+
+}
 .card2{
     background-color: white;
-    padding-top: 15px;
+    padding-top: 10px;
     margin-top: 50px;
     margin-right: 5px;
-    box-shadow: 0px 0px 8px 0 rgba(0,0,0,0.2);
+    
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px 0 rgba(0,0,0,0.2);
     opacity: 0.9;
     border-radius: 5px;
     width: 20vw;
-    height: 44vh;
+    height: 50vh;
 }
 
 .card2 h4{
@@ -180,62 +146,35 @@ nav .logo{
     width: 100%;
 }
 
-.card-container button{
-    background-color: #4169E1;
-    border: none;
+.card-container .button{
+    background-color:#4169E1;
+    text-align: center;
+    border: 10px;
     color: white;
-    padding: 10px 90px;
+    padding: 10px 10px;
     font-size: 16px;
     border-radius: 5px;
     display: block;
     margin: auto;
     margin-top: 15px;
     cursor: pointer;
+    width: 200px;
 }
 
-.img:hover{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    transition: 666ms;
-}
 
-.container3 button:hover{
-    background-color: #e5ae40;
-    color: black;
-    transition: 666ms;
-}
 
 /* end container3 */
 
 
 /* dealership */
 
-.dealership{
-    text-align: center;
-    width: 100%;
-    box-sizing: border-box;
-    padding-top: 150px;
-    background-color: grey;
-    padding-bottom: 80px;
-}
 
-.pe1{
-    color: white;
-    font-size: 40px;
-    padding-top: 150px;
-}
-
-.pe2{
-    color:  white;
-    font-weight: bold;
-    font-size: 55px;
-}
 /* dealership */
 
 /* Footer */
 .footer{
     height: 330px;
-    background-color: #11468f;
+    background-color: #4169E1;
     justify-content: space-around;
 }
 
@@ -265,6 +204,13 @@ nav .logo{
     margin-bottom: 20px;
 }
 /* dealership*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
 
 
 
@@ -291,7 +237,6 @@ nav .logo{
     color: #4169E1;
     margin-left: 15px;
 }
-
 
 
 
@@ -354,6 +299,7 @@ nav .logo{
     padding: 15px 0 0 20px;
     font-size: 14px;
 }
+
 
 .main_blog .slide_1 .blog_box .blog_card .blog_tag .blog_date i{
     margin-left: 5px;

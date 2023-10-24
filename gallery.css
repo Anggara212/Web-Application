@@ -232,6 +232,41 @@ nav .logo{
 }
 /* dealership */
 
+/* Footer */
+.footer{
+    height: 330px;
+    background-color: #4169E1;
+    justify-content: space-around;
+}
+
+.cover{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+}
+
+.quick-link, .fasilitas, .more, .footer-contact{
+    width: 25%;
+}
+
+.quick-link ul, .fasilitas ul, .more ul, .footer-contact ul{
+    list-style: none;
+    line-height: 30px;
+}
+
+.quick-link li a, .fasilitas ul li a, .more ul li a, .footer-contact p{
+    text-decoration: none;
+    color: white;
+}
+
+.cover h2{
+    color: white;
+    margin-bottom: 20px;
+}
+/* dealership*/
+
+
 .banner_bg{
     width: 100%;
     height: 50vh;
@@ -492,39 +527,3 @@ nav .logo{
     font-weight: bold;
     color: #fff;
 }
-
-/* Footer */
-.footer{
-    height: 400px;
-    background-color: #4169E1;
-    justify-content: space-around;
-}
-
-.cover{
-    width: 80%;
-    margin: auto;
-    padding: 50px 0;
-    display: flex;
-}
-
-.quick-link, .fasilitas, .more, .footer-contact{
-    width: 25%;
-}
-
-.quick-link ul, .fasilitas ul, .more ul, .footer-contact ul{
-    list-style: none;
-    line-height: 30px;
-}
-
-.quick-link li a, .fasilitas ul li a, .more ul li a, .footer-contact p{
-    text-decoration: none;
-    color: white;
-}
-
-.cover h2{
-    color: white;
-    margin-bottom: 20px;
-}
-/*end  footer*/
-
-/* banner  */
