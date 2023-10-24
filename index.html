@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
     <title>yum yummeres</title>
+    <link rel="icon" href="arknigh.png">
 </head>
 <body>
+    
     <!-- Navbar -->
     <nav>
         <div class="logo">
@@ -23,11 +26,14 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="dealership.html">Dealership</a></li>
                 <li><a href="gallery.html">gallery</a></li>
+                <li><a href="location.html">Location</a></li>
             </ul>
         </div>
-        <div class="search-bar">
-            <input type="text" placeholder="Search..">
-        </div>
+        <form class="d-flex" role="search">
+            <i class="bi bi-search"></i>
+            <input class="form-control me-2 bi" type="search" placeholder="Search" aria-label="Search">
+            <button type="button" class="btn btn-outline-primary">Submit</button>
+          </form>
     </nav>
     <!-- End Navbar -->
 
@@ -40,11 +46,17 @@
         </div>
     </div>
     <!-- end Container -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#0099ff" fill-opacity="1" d="M0,224L0,64L1440,64L1440,320L0,320L0,320Z"></path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#0099ff" fill-opacity="1" d="M0,192L30,165.3C60,139,120,85,180,85.3C240,85,300,139,360,181.3C420,224,480,256,540,250.7C600,245,660,203,720,186.7C780,171,840,181,900,186.7C960,192,1020,192,1080,186.7C1140,181,1200,171,1260,181.3C1320,192,1380,224,1410,240L1440,256L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path>
+      </svg>
     <div class="container2" id="Container">
         <h1>car</h1>
         <div class="card">
             <center>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/OJoM4M9jr-4?si=yLbi31OvywF0bYBI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/sV5MwVYQwS8?si=qd-8E-4f1K79hrZm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </center>
             <h2>do you want to see more?</h2>
         </div>
@@ -131,7 +143,41 @@
     <br>
     <h1 style="color: #4169E1;"><marquee scrollamount="20">get your free cars today</marquee></h1>
     <!-- end container 3 -->
+
+    <!-- container 4 -->
+    <!-- <div class="container4">
+        <div class="card1">
+        <div class="card" style="width: 18rem;">
+            <img src="" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    <br> -->
+    <!-- end container 4 -->
+
      <!-- Footer -->
+    <footer>
      <div class="footer">
         <div class="cover">
             <div class="quick-link">
@@ -150,9 +196,9 @@
                     <li>
                         <h2>Our Facilities</h2>
                     </li>
-                    <li><a href="">Cosmetic Dentistry</a></li>
-                    <li><a href="">Pediatric Dentistry</a></li>
-                    <li><a href="">Dental Implant</a></li>
+                    <li><a href="">Car</a></li>
+                    <li><a href="">Car</a></li>
+                    <li><a href="">Car</a></li>
                 </ul>
             </div>
             <div class="more">
@@ -160,10 +206,10 @@
                     <li>
                         <h2>More Services</h2>
                     </li>
-                    <li><a href="">Cardiology</a></li>
-                    <li><a href="">Radiology</a></li>
-                    <li><a href="">Dialysis</a></li>
-                    <li><a href="">Ambulance</a></li>
+                    <li><a href="">car</a></li>
+                    <li><a href="">car</a></li>
+                    <li><a href="">car</a></li>
+                    <li><a href="">car</a></li>
                 </ul>
             </div>
             <div class="footer-contact">
@@ -190,6 +236,16 @@
             </div>
         </div>
     </div>
+</footer>
     <!-- End Footer -->
+    <script>
+        function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+        </script>
 </body>
 </html>
