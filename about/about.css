@@ -75,7 +75,7 @@ nav .logo{
 /*  about */
 
 .container2cov {
-    background-image: url(dealership.jpg);
+    background-image: url(/img/dealership.jpg);
     height: 700px;
     background-size: cover;
     background-repeat: no-repeat;
