@@ -32,7 +32,7 @@ nav .logo{
 }
 
 .nav-link{
-    margin-right: 1px;
+    margin-left: 155px;
     margin-top: 20px;
 }
 .nav-link ul{
@@ -72,13 +72,21 @@ nav .logo{
     color: #fff;
 }
 
+.bigger-icon{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    
+}
 
 /* end navbar */
 
 /* container 1 */
 
 .container1 {
-    background-image: url(dealership.jpg);
+    background-image: url(/img/dealership.jpg);
     height: 650px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -236,7 +244,7 @@ nav .logo{
 
 /* container 4 */
 .container4{
-    background-image: url(catwawawawa.jpg);
+    background-image: url(/img/catwawawawa.jpg);
     height: 650px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -248,6 +256,27 @@ nav .logo{
 
 }
 /* end container 4 */
+
+.form4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+}
+
+.dalem-form {
+    font-style: italic;
+    width: 800px; /* Adjust the width as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.dalem-form input {
+    display: inline-block;
+    width: 500px; /* Adjust the width as needed */
+   
+}
 /* Footer */
 .footer{
     height: 330px;

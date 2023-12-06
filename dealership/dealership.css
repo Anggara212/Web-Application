@@ -32,7 +32,7 @@ nav .logo{
 }
 
 .nav-link{
-    margin-right: 1px;
+    margin-left: 155px;
     margin-top: 20px;
 }
 .nav-link ul{
@@ -58,7 +58,14 @@ nav .logo{
     color:  #4169E1;
 }
 
+.bigger-icon{
+    font-size: 30px;
+    cursor: pointer;
+}
 
+.dropdown-menu {
+    
+}
 /* end navbar */
 
 /* container 1 */
@@ -170,6 +177,27 @@ nav .logo{
 
 
 /* dealership */
+
+.form4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+}
+
+.dalem-form {
+    font-style: italic;
+    width: 800px; /* Adjust the width as needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.dalem-form input {
+    display: inline-block;
+    width: 500px; /* Adjust the width as needed */
+   
+}
 
 /* Footer */
 .footer{

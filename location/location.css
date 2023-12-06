@@ -32,7 +32,7 @@ nav .logo{
 }
 
 .nav-link{
-    margin-right: 1px;
+    margin-left: 155px;
     margin-top: 20px;
 }
 .nav-link ul{
@@ -72,7 +72,14 @@ nav .logo{
     color: #fff;
 }
 
+.bigger-icon{
+    font-size: 30px;
+    cursor: pointer;
+}
 
+.dropdown-menu {
+    
+}
 /* end navbar */
 
 /* location */
