@@ -21,7 +21,7 @@ nav{
 }
 
 nav .logo{
-    display: flex;
+    display: flex; 
     margin-right: 1rem;
     align-items: center;
 }
@@ -86,11 +86,10 @@ nav .logo{
 /* container 1 */
 
 .container1 {
-    background-image: url(/img/dealership.jpg);
-    height: 650px;
+    background-image: url(img/dealership.jpg);
+    height: 700px;
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
 
 
@@ -244,7 +243,7 @@ nav .logo{
 
 /* container 4 */
 .container4{
-    background-image: url(/img/catwawawawa.jpg);
+    background-image: url(img/catwawawawa.jpg);
     height: 650px;
     background-size: cover;
     background-repeat: no-repeat;
