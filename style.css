@@ -265,7 +265,7 @@ nav .logo{
 
 .dalem-form {
     font-style: italic;
-    width: 800px; /* Adjust the width as needed */
+    width: 1200px; /* Adjust the width as needed */
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -273,7 +273,6 @@ nav .logo{
 
 .dalem-form input {
     display: inline-block;
-    width: 500px; /* Adjust the width as needed */
    
 }
 /* Footer */
